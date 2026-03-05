@@ -2,39 +2,24 @@
 
 リンクを知っている人のみがアクセスできる補足資料です。
 
-## デプロイ手順
+## 公開方法（GitHub Pages）
 
-### 1. GitHub にリポジトリを作成
+リポジトリはすでに GitHub にあります: https://github.com/Yp465-ck/tesou-points-guide
 
-1. GitHub で新規リポジトリ `tesou-points-guide` を作成
-2. このフォルダを push:
+### 手順（約1分）
 
-```bash
-cd tesou-points-guide
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/tesou-points-guide.git
-git push -u origin main
-```
+1. 上記リポジトリを開く
+2. **Settings** タブをクリック
+3. 左メニューで **Pages** をクリック
+4. **Build and deployment** の **Source** で **Deploy from a branch** を選択
+5. **Branch** で `main` を選択、**Folder** で `/ (root)` を選択
+6. **Save** をクリック
+7. 1〜2分待つ
 
-### 2. Vercel でデプロイ
-
-1. [Vercel](https://vercel.com) にログイン
-2. **Add New** → **Project**
-3. 上記で作成した `tesou-points-guide` リポジトリをインポート
-4. **Deploy** をクリック
-
-### 3. 公開URL
-
-デプロイ後、次のURLでアクセスできます:
+### 公開URL
 
 ```
-https://tesou-points-guide.vercel.app/
-```
-または（Netlifyの場合）
-```
-https://[プロジェクト名].netlify.app/
+https://yp465-ck.github.io/tesou-points-guide/
 ```
 
-- このURLを共有する人だけが早見表を閲覧できます
+このURLを共有する人だけが早見表を閲覧できます。
