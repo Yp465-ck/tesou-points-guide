@@ -30,7 +30,7 @@ git push -u origin main
 デプロイ後、次のURLでアクセスできます:
 
 ```
-https://[プロジェクト名].vercel.app/k7m2x9p.html
+https://[プロジェクト名].vercel.app/x7k2m9p/
 ```
 
 - ルート (`/`) にアクセスすると 404 になります（意図した動作）
